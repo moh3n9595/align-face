@@ -12,6 +12,20 @@
 - Put your images in `./clean_dataset` & create `./align_dataset` folder
 - Run `run.bat`
 
+## How it works
+Align in a few steps:
+
+- Detect face with Haarcascades
+
+- Detect eyes with Haarcascades
+
+- Add some extra padding
+
+- Rotate, resize and crop images associated with eyes coordinate
+    > According to standard face image agreed with ISO/IEC 19794-5[3]
+    
+- Produce video from processed images
+
 ## Contributing
 
 Thank you for your interest in contributing! Please feel free to put up a PR for any issue or feature request.
